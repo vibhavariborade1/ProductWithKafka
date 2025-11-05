@@ -31,7 +31,7 @@ public class ProductService {
 	}
 
 	public void deleteProduct(int id) {
-		productRepository.deleteAllById(id);
+		productRepository.deleteById(id);
 		
 	}
 
